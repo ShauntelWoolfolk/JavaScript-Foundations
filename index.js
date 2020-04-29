@@ -115,8 +115,8 @@ const increase = .02;
 var variableInterestRate(200000, .04, 30) 
 
     for (let i = 0; i < 11; i++) {
-    
-        console.log(i + .05);
+      variableInterestRate += .02;
+        console.log(variableInterestRate + .05);
         
 }
 
